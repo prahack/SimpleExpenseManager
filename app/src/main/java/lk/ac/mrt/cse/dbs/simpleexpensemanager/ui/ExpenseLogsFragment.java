@@ -62,7 +62,7 @@ public class ExpenseLogsFragment extends Fragment {
         if (currentExpenseManager != null) {
             transactionList = currentExpenseManager.getTransactionLogs();
         }
-        generateTransactionsTable(rootView, logsTableLayout, transactionList);
+        //generateTransactionsTable(rootView, logsTableLayout, transactionList);
         return rootView;
     }
 
